@@ -1,0 +1,23 @@
+{
+  "name": "nambouchara-skills",
+  "owner": {
+    "name": "Nambouchara",
+    "email": "nambouchara8@gmail.com"
+  },
+  "metadata": {
+    "description": "Personal collection of custom skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "productivity-skills",
+      "description": "Collection of productivity enhancement skills including prompt improvement, frontend design, and workflow optimization",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prompt-improver",
+        "./skills/frontend-design"
+      ]
+    }
+  ]
+}
